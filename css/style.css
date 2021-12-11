@@ -1,0 +1,55 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: rgb(4, 73, 44) !important;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    color: rgb(193, 214, 6) !important;
+}
+
+.navbar-nav a:hover {
+    font-size: 22px;
+    color: rgb(12, 14, 172) !important;
+    border-bottom: 2px solid rgb(247, 48, 75);
+    transition: 0.5s;
+}
+
+h2::after {
+    content: "";
+    width: 100px;
+    height: 0;
+    color: rgb(104, 3, 28);
+}
+
+.contact-image img {
+    width: 70%;
+    height: auto;
+}
+
+#contact {
+    margin-top: 20px;
+}
+
+#About {
+    margin-top: 2%;
+}
+
+.map {
+    margin-left: 2px !important;
+}
+
+#Research,
+#Admissions {
+    margin-top: 10px;
+}
